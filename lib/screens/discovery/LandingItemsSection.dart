@@ -10,7 +10,7 @@ class LandingItemsSection extends StatefulWidget {
 }
 
 class _LandingItemsSectionState extends State<LandingItemsSection> {
-  List<Item> items = [
+  /*List<Item> items = [
     Item(
         id: 'A111',
         name: 'Item 1',
@@ -98,7 +98,7 @@ class _LandingItemsSectionState extends State<LandingItemsSection> {
         description: 'Lorem Ipsum dolor et something x2',
         image: 'assets/images/item2.jpg',
         price: 7.2),
-  ];
+  ];*/
 
   @override
   Widget build(BuildContext context) {
@@ -147,7 +147,7 @@ class _LandingItemsSectionState extends State<LandingItemsSection> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           CircleAvatar(
-            backgroundImage: ExactAssetImage(item.image),
+            backgroundImage: NetworkImage(item.image),
             radius: 30,
           ),
           SizedBox(
