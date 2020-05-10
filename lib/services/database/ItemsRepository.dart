@@ -10,7 +10,7 @@ class ItemsRepository {
       name: document.data['name'],
       description: document.data['description'] ?? '',
       image: document.data['image'],
-      price: document.data['price'] ?? 0);
+      price: document.data['price'] + .0 ?? 0);
 
   Stream<List<Item>> get items {
     return itemsCollection.snapshots().map((snapshot) =>

@@ -47,7 +47,7 @@ class _LandingPageState extends State<LandingPage> {
           centerTitle: true,
           title: Text(
             'Buy us some stuff',
-            style: Theme.of(context).textTheme.title,
+            style: Theme.of(context).textTheme.headline6,
           ),
           pinned: true, // Keep pinned the appbar
           floating: true, // Disappear the top part

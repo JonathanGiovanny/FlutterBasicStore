@@ -60,7 +60,7 @@ class _CustomEndDrawerState extends State<CustomEndDrawer> {
             ),
             Text(
               'Shopping Cart',
-              style: Theme.of(context).textTheme.title,
+              style: Theme.of(context).textTheme.headline6,
             ),
           ],
         ),

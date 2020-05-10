@@ -89,7 +89,7 @@ class _SingIFormonState extends State<SingInFormSection> {
     if (!isLoading) {
       return Text(
         'Login',
-        style: Theme.of(context).accentTextTheme.subtitle,
+        style: Theme.of(context).accentTextTheme.subtitle2,
       );
     } else {
       return Padding(

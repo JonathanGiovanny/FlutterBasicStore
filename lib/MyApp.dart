@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       disabledColor: Colors.indigo[200],
       fontFamily: 'Montserrat',
       textTheme: TextTheme(
-        title: TextStyle(
+        headline6: TextStyle(
           fontSize: 24,
           fontWeight: FontWeight.normal,
           color: Colors.white,

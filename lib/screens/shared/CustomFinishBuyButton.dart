@@ -12,7 +12,7 @@ class CustomFinishBuyButton extends StatelessWidget {
         onPressed: () => _finishBuy(context),
         child: Text(
           'Finish Buy',
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
         ),
       ),
     );

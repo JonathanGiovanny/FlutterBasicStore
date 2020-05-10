@@ -102,7 +102,7 @@ class _LandingItemsSectionState extends State<LandingItemsSection> {
 
   @override
   Widget build(BuildContext context) {
-    final List<Item> items = Provider.of<List<Item>>(context);
+    final List<Item> items = Provider.of<List<Item>>(context) ?? [];
     if (items.isEmpty) {
       return Center(child: Text('There are not available items.'));
     }

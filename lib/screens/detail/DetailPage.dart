@@ -65,7 +65,7 @@ class _DetailPageState extends State<DetailPage> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 fit: BoxFit.fitHeight,
-                image: ExactAssetImage(item.image),
+                image: NetworkImage(item.image),
               ),
             ),
           ),

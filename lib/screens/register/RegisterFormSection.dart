@@ -85,7 +85,7 @@ class _RegisterFormonState extends State<RegisterFormSection> {
     if (!isLoading) {
       return Text(
         'Register',
-        style: Theme.of(context).accentTextTheme.subtitle,
+        style: Theme.of(context).accentTextTheme.subtitle2,
       );
     } else {
       return Padding(
